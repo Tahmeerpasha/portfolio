@@ -15,7 +15,7 @@ const Projects = () => {
                         title='Snake Xenzia'
                         tech='Javascript'
                         backgroundImg={snakegame}
-                        projectUrl='/snakegame'
+                        projectUrl='/property'
                     />
                     <ProjectItems
                         title='Ascii code generator'

@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Navbar from "../../components/Navbar";
-import Link from "next/link";
 import Main from "../../components/Main";
 import About from "../../components/About";
 import Skills from "../../components/Skills";
@@ -12,9 +11,8 @@ export default function Home() {
     <>
       <Head>
         <title>Tahmeer Pasha | Frontend developer</title>
-        <Link rel="icon" href="/assets/favicon.ico"></Link>
+        <link rel="icon" href="/assets/favicon.ico" />
       </Head>
-      <Navbar />
       <Main />
       <About />
       <Skills />

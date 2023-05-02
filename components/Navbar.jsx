@@ -23,7 +23,7 @@ const Navbar = () => {
         window.addEventListener('scroll', handleShadow)
     }, [])
     return (
-        <div id='navbar' className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20  z-[100]'}>
+        <div id='navbar' className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] bg-blur' : 'fixed w-full h-20  z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
                     <Image src="/../public/assets/Logo.png" width='80' height='80' alt='/' />
