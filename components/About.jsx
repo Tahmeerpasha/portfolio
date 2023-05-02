@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import profile from '../public/assets/images/Tahmeer1.jpg'
 const About = () => {
     return (
         <div id='about' className='md:h-screen w-full p-2 flex items-center py-16'>
@@ -14,7 +15,7 @@ const About = () => {
                     <p className='py-2 text-gray-600'>Checkout my latest projects!</p>
                 </div>
                 <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                    <Image className='rounded-xl' src='/../public/assets/Tahmeer1.jpg' alt='/' width={1980} height={480} />
+                    <Image className='rounded-xl' src={profile} alt='/' width={1980} height={480} />
                 </div>
             </div>
         </div>

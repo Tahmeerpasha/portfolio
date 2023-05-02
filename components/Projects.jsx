@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import React from 'react'
 import snakegame from '../public/assets/projects/snakegame.jpg'
 import ascii from '../public/assets/projects/ascii.jpg'

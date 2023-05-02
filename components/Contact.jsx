@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import contactImg from '../public/assets/contact.jpg'
+import contactImg from '../public/assets/images/contact.jpg'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { BsInstagram, BsTwitter } from 'react-icons/bs'
 import { SiHashnode } from 'react-icons/si'
