@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import profile from '../public/assets/images/Tahmeer1.jpg'
+import profile from '../public/assets/images/Tahmeer.jpg'
 const About = () => {
     return (
         <div id='about' className='md:h-screen w-full p-2 flex items-center py-16'>
@@ -9,13 +9,18 @@ const About = () => {
                     <p className='uppercase tracking-widest text-xl text-[#5651e5]'>About</p>
                     <h2 className='py-4'>Who I am</h2>
                     <p className='py-2 text-gray-600'>I am a Developer</p>
-                    <p className='py-2 text-gray-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quis laboriosam? Temporibus facilis nihil magnam molestiae distinctio,
-                        atque repellendus! Ullam esse, error ea quae eligendi molestias repellat iusto autem, atque unde quis. Ab iste quam fuga provident, sed,
-                        dignissimos nesciunt quod earum impedit sint laudantium? Laborum consectetur totam aspernatur eos.</p>
+                    <p className='py-2 text-justify text-gray-600'>Hi there! My name is Tahmeer Pasha, and I'm a information science and engineering student at Visvesvaraya Technological University. I'm eager to learn and grow in my field and am committed to working hard to achieve my goals.
+                        I have a strong passion for Web Development, and am constantly reading and researching to stay up-to-date on the latest trends and developments in the industry. I'm a dedicated and hardworking individual, and I'm always looking for ways to improve my skills and knowledge.
+                        Outside of my studies, I enjoy Learning more about new technologies, which have taught me valuable skills such as Html, Css, JavaScript,React.js, Next.js, Bootstrap, TailwindCss and Core Java. I believe that these skills, combined with my dedication and work ethic, will make me a valuable asset to any team or organization.
+                        Thank you for taking the time to learn a little bit more about me. I'm excited to see where my career in IT industry will take me, and I'm always open to new opportunities and connections. If you'd like to chat or learn more about my work and interests, please don't hesitate to reach out.</p>
+                    <pre>Summary:</pre>
+                    <pre>Team Player | Smart Worker | Coding enthusiast.</pre>
+                    <pre>Learning Web development and Data structures and algorithms.</pre>
+                    <pre>Proficient in Java programming language.</pre>
                     <p className='py-2 text-gray-600'>Checkout my latest projects!</p>
                 </div>
-                <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                    <Image className='rounded-xl' src={profile} alt='/' width={1980} height={480} />
+                <div className='w-full h-auto m-auto rounded-full shadow-xl shadow-gray-400  flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+                    <Image className='rounded-full cursor-pointer ' src={profile} alt='/' width={1980} height={480} />
                 </div>
             </div>
         </div>
