@@ -55,28 +55,28 @@ function Contact() {
                     {/* Right-section */}
                     <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
                         <div className="p-4">
-                            <form>
+                            <form action={'https://getform.io/f/1a7e5fe7-02a8-47fc-887d-168b72799f58'} method='POST'>
                                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                                     <div className="flex flex-col">
                                         <label className="uppercase text-sm py-2">Name</label>
-                                        <input type="text" className='border-2 rounded-lg p-3 flex' />
+                                        <input type="text" name='Name' className='border-2 rounded-lg p-3 flex' />
                                     </div>
                                     <div className="flex flex-col">
                                         <label className="uppercase text-sm py-2">Phone Number</label>
-                                        <input type="text" className='border-2 rounded-lg p-3 flex' />
+                                        <input type="text" name='Phone' className='border-2 rounded-lg p-3 flex' />
                                     </div>
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label className="uppercase text-sm py-2">Email</label>
-                                    <input type="email" className='border-2 rounded-lg p-3 flex' />
+                                    <input type="email" name='Email' className='border-2 rounded-lg p-3 flex' />
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label className="uppercase text-sm py-2">Subject</label>
-                                    <input type="text" className='border-2 rounded-lg p-3 flex' />
+                                    <input type="text" name='Subject' className='border-2 rounded-lg p-3 flex' />
                                 </div>
                                 <div className='flex flex-col py-2'>
                                     <label className="uppercase text-sm py-2">Message</label>
-                                    <textarea className='border-2 rounded-lg p-3 border-gray-300' rows={10}></textarea>
+                                    <textarea name='Message' className='border-2 rounded-lg p-3 border-gray-300' rows={10}></textarea>
                                 </div>
                                 <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>
                             </form>
