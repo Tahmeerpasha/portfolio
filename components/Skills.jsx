@@ -8,6 +8,9 @@ import react from '../public/assets/skills/react.png'
 import nextjs from '../public/assets/skills/nextjs.png'
 import github from '../public/assets/skills/github1.png'
 import firebase from '../public/assets/skills/firebase.png'
+import aws from '../public/assets/skills/aws.png'
+import axios from '../public/assets/skills/axios.svg'
+import rapidApi from '../public/assets/skills/rapidapi.svg'
 import Cards from './Cards'
 
 function Skills() {
@@ -25,6 +28,9 @@ function Skills() {
                     <Cards img={nextjs} text={"NextJs"} />
                     <Cards img={github} text={"Github"} />
                     <Cards img={firebase} text={"Firebase"} />
+                    <Cards img={aws} text={"AWS"} />
+                    <Cards img={rapidApi} text={"RapidAPI"} />
+                    <Cards img={axios} text={"Axios"} />
                 </div>
             </div>
         </div>

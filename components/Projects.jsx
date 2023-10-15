@@ -5,6 +5,7 @@ import todo from '../public/assets/projects/todo.jpg'
 import randomizer from '../public/assets/projects/randomizer.jpg'
 import socialite from '../public/assets/projects/Socialite.jpg'
 import todolist from '../public/assets/projects/todolist.jpg'
+import youtube from '../public/assets/projects/youtube.jpg'
 
 
 import ProjectItems from './ProjectItems'
@@ -15,6 +16,12 @@ const Projects = () => {
                 <p className='uppercase tracking-widest font-bold text-2xl text-[#5651e5]'>Projects</p>
                 <h2 className='py-4'>What I've Built</h2>
                 <div className='grid md:grid-cols-2 gap-8'>
+                    <ProjectItems
+                        title='Youtube Clone'
+                        tech='NextJS and ReactJS'
+                        backgroundImg={youtube}
+                        projectUrl='/Youtube'
+                    />
                     <ProjectItems
                         title='Snake Xenzia'
                         tech='Javascript'
